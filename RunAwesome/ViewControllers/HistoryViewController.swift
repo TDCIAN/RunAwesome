@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HistoryViewController.swift
 //  RunAwesome
 //
 //  Created by JeongminKim on 2022/04/28.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HistoryViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .blue
     }
 
-
 }
-
