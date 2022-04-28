@@ -84,7 +84,9 @@ class HomeViewController: BaseViewController {
     
     // MARK: - Helpers
     @objc private func startRunning() {
-        print("스타트 러닝 버튼 클릭")
+        let currentRunVC = CurrentRunViewController()
+        currentRunVC.modalPresentationStyle = .fullScreen
+        present(currentRunVC, animated: true)
     }
 }
 

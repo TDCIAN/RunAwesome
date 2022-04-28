@@ -18,6 +18,10 @@
 		1EC9FAFA281A2F31008BAC50 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9FAF9281A2F31008BAC50 /* GradientView.swift */; };
 		1EC9FAFC281A3193008BAC50 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9FAFB281A3193008BAC50 /* CircularButton.swift */; };
 		1EC9FAFE281A326B008BAC50 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9FAFD281A326B008BAC50 /* LocationManager.swift */; };
+		1EC9FB00281A55A7008BAC50 /* CurrentRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9FAFF281A55A7008BAC50 /* CurrentRunViewController.swift */; };
+		1EC9FB02281A6CDD008BAC50 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9FB01281A6CDD008BAC50 /* Int+Extensions.swift */; };
+		1EC9FB04281A71ED008BAC50 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9FB03281A71ED008BAC50 /* Double+Extensions.swift */; };
+		1EC9FB06281A76DE008BAC50 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9FB05281A76DE008BAC50 /* HistoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		1EC9FAF9281A2F31008BAC50 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		1EC9FAFB281A3193008BAC50 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		1EC9FAFD281A326B008BAC50 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1EC9FAFF281A55A7008BAC50 /* CurrentRunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunViewController.swift; sourceTree = "<group>"; };
+		1EC9FB01281A6CDD008BAC50 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		1EC9FB03281A71ED008BAC50 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		1EC9FB05281A76DE008BAC50 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,8 @@
 			children = (
 				1EC9FAF2281A2C86008BAC50 /* TabBarViewController.swift */,
 				1EC9FAFD281A326B008BAC50 /* LocationManager.swift */,
+				1EC9FB01281A6CDD008BAC50 /* Int+Extensions.swift */,
+				1EC9FB03281A71ED008BAC50 /* Double+Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -92,6 +102,7 @@
 			children = (
 				1EC9FAF9281A2F31008BAC50 /* GradientView.swift */,
 				1EC9FAFB281A3193008BAC50 /* CircularButton.swift */,
+				1EC9FB05281A76DE008BAC50 /* HistoryTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +113,7 @@
 				1EC9FADE281A27BC008BAC50 /* BaseViewController.swift */,
 				1EC9FAF5281A2DBD008BAC50 /* HomeViewController.swift */,
 				1EC9FAF7281A2DE3008BAC50 /* HistoryViewController.swift */,
+				1EC9FAFF281A55A7008BAC50 /* CurrentRunViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -176,12 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC9FB04281A71ED008BAC50 /* Double+Extensions.swift in Sources */,
 				1EC9FAFC281A3193008BAC50 /* CircularButton.swift in Sources */,
+				1EC9FB06281A76DE008BAC50 /* HistoryTableViewCell.swift in Sources */,
 				1EC9FAF6281A2DBD008BAC50 /* HomeViewController.swift in Sources */,
 				1EC9FAF3281A2C86008BAC50 /* TabBarViewController.swift in Sources */,
 				1EC9FADF281A27BC008BAC50 /* BaseViewController.swift in Sources */,
 				1EC9FAF8281A2DE3008BAC50 /* HistoryViewController.swift in Sources */,
 				1EC9FAFA281A2F31008BAC50 /* GradientView.swift in Sources */,
+				1EC9FB00281A55A7008BAC50 /* CurrentRunViewController.swift in Sources */,
+				1EC9FB02281A6CDD008BAC50 /* Int+Extensions.swift in Sources */,
 				1EC9FADB281A27BC008BAC50 /* AppDelegate.swift in Sources */,
 				1EC9FADD281A27BC008BAC50 /* SceneDelegate.swift in Sources */,
 				1EC9FAFE281A326B008BAC50 /* LocationManager.swift in Sources */,
